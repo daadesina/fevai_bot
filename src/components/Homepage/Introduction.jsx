@@ -25,11 +25,13 @@ const FirstSec = () => {
       <div className="relative z-10 space-y-6 max-w-3xl">
         <Link
           to="/fevai"
-          className="text-sm md:text-base hover:text-amber-400 duration-300 flex items-center"
+          className="group text-sm md:text-base text-amber-400 underline underline-offset-4 hover:text-yellow-300 duration-300 flex items-center"
         >
-          <span className="text-yellow-400">TALK TO FEVAI</span>
-          <BsArrowLeft className="ml-2 text-2xl md:text-3xl" />
+          <span className="group-hover:underline">TALK TO FEVAI</span>
+          <BsArrowLeft className="ml-2 text-xl md:text-2xl arrow-wiggle" />
         </Link>
+
+
 
         <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight">
           Driving <span className="text-yellow-400">creative innovation</span>

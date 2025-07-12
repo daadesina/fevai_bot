@@ -8,3 +8,16 @@ body {
 @theme{
     --color-primary: #14181c;
 }
+
+@keyframes wiggleX {
+  0%, 100% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(-6px);
+  }
+}
+
+.arrow-wiggle {
+  animation: wiggleX 1s ease-in-out infinite;
+}
