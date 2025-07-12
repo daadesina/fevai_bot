@@ -21,18 +21,18 @@ const Fevai = () => {
 
       {/* New Section */}
       <div className='p-10 pt-5 space-y-6 text-white'>
-        <h2 className='text-3xl md:text-4xl font-semibold text-center text-emerald-400'>FEVAI</h2>
+        <h2 className='text-3xl md:text-4xl font-semibold text-center text-[#01aaeb]'>FEVAI</h2>
         <p className='text-center text-lg text-gray-300'>
           AI Financial Advisor for Banks & Fintechs
         </p>
-        <p className='text-center max-w-3xl mx-auto text-gray-400'>
+        <p className='text-center max-w-2xl mx-auto text-gray-400'>
           Plug into real-time financial guidance, budgeting, saving, and spending insights,
           delivered instantly with our live API.
         </p>
         <div className='flex justify-center '>
           <div className='grid md:grid-cols-2 gap-8 max-w-4xl mx-auto mt-8'>
             <div>
-              <h3 className='text-xl font-semibold text-emerald-300 mb-4'>✅ For Customers</h3>
+              <h3 className='text-xl font-semibold text-[#01aaeb] mb-4'>✅ For Customers</h3>
               <ul className='space-y-2 text-gray-300'>
                 <li>💰 Smart money advice</li>
                 <li>📊 Budgets & savings plans</li>
@@ -41,7 +41,7 @@ const Fevai = () => {
               </ul>
             </div>
             <div>
-              <h3 className='text-xl font-semibold text-emerald-300 mb-4'>✅ For Banks</h3>
+              <h3 className='text-xl font-semibold text-[#01aaeb] mb-4'>✅ For Banks</h3>
               <ul className='space-y-2 text-gray-300'>
                 <li>🔧 Easy API integration</li>
                 <li>🔐 Bank-grade security</li>
@@ -54,7 +54,7 @@ const Fevai = () => {
 
         <div className='text-center mt-10 space-y-3'>
           <p className='text-lg text-gray-200'>💬 Try the Demo Above</p>
-          <p className='text-lg text-emerald-400 underline cursor-pointer'>🔗 API Ready – Request Access Now</p>
+          <p className='text-lg text-[#01aaeb] underline cursor-pointer'>🔗 API Ready – Request Access Now</p>
         </div>
 
         <footer className='text-center text-sm text-gray-500 pt-8 border-t border-gray-700 mt-10'>
