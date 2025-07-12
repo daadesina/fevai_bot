@@ -6,6 +6,7 @@ export default defineConfig({
   plugins: [react(), tailwindcss()],
   server: {
     host: '0.0.0.0',
-    port: parseInt(process.env.PORT) || 5173, // use Render's PORT if available
+    port: parseInt(process.env.PORT) || 5173,
+    allowedHosts: ['fevai-bot.onrender.com'], // 👈 Add this line
   },
 })
