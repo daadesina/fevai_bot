@@ -4,6 +4,7 @@ import { ImInstagram } from 'react-icons/im'
 import { BsTwitter } from 'react-icons/bs'
 import { LiaLinkedin } from 'react-icons/lia'
 import { CiLinkedin } from 'react-icons/ci'
+import { Link } from 'react-router'
 
 const Footer = () => {
     const listStyles = "hover:text-yellow-400 transition-colors cursor-pointer"
@@ -24,16 +25,24 @@ const Footer = () => {
           <h4 className=" mt-6 ">Follow us</h4>
           <p className="text-xs text-neutral-200">Stay updated by following us on social media</p>
           <div className="flex gap-4 mt-2">
-            <ImInstagram className={iconStyles} />
-            <BsTwitter className={iconStyles} />
-            <CiLinkedin className={iconStyles} />
+            <Link to={'https://www.instagram.com/eden_cwt?igsh=MTJwZm9xaWRpNzlkbg=='} target='_blank'>
+              <ImInstagram className={iconStyles} />
+            </Link>
+
+            <Link to={'https://x.com/edencwt?t=jvNdigEkJNtmxyN9JpFzDQ&s=09'} target='_blank'>
+              <BsTwitter className={iconStyles} />
+            </Link>
+            
+            <Link target='_blank' to={'https://www.linkedin.com/company/eden-cloudwave-technoloogy/'}>
+              <CiLinkedin className={iconStyles} />
+            </Link>
           </div>
         </div>
 
         {/* Contact section */}
         <div className="">
           <h3 className="text-lg mb-2">Get In Touch</h3>
-          <p className="text-sm underline mb-4">+(234) 902-5733-0919</p>
+          <p className="text-sm underline mb-4">+(234) 916-3063-686</p>
           <p className="text-sm underline">edencloudwavetechnology@gmail.com</p>
 
           <h1 className='font-semibold sm:mt-20 mb-3'>Address</h1>
